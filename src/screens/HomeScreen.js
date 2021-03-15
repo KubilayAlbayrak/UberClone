@@ -1,6 +1,6 @@
 import React from 'react';
 import {View,Text,StyleSheet, Button} from 'react-native';
-import HomeMap from '../components/HomeMap';
+import RouteMap from '../components/RouteMap';
 import CovidMessage from '../components/CovidMessage';
 import HomeSearch from '../components/HomeSearch';
 
@@ -8,7 +8,7 @@ const HomeScreen = (props) => {
     return(
         <View style={{flex:1}}>
         <View style={{flex:8}}>
-        <HomeMap />
+        <RouteMap />
         </View>
         <View style={{flex:3}}>
         <CovidMessage />

@@ -5,7 +5,6 @@ import { createStackNavigator } from '@react-navigation/stack';
 import HomeScreen from '../screens/HomeScreen';
 import DestinationSearchScreen from '../screens/DestinationSearchScreen';
 import SearchResultScreen from '../screens/SearchResultScreen';
-import { useNavigation } from '@react-navigation/native';
 
 const ScreensNavigation = () => {
 

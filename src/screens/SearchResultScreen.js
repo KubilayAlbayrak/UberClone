@@ -1,6 +1,6 @@
 import React from 'react';
 import {View,Text,StyleSheet,FlatList} from 'react-native';
-import HomeMap from '../components/HomeMap';
+import RouteMap from '../components/RouteMap';
 import {Cars} from '../assets/data/Cars';
 import UberTypeRow from '../components/UberTypeRow';
 
@@ -10,7 +10,7 @@ const SearchResultScreen = (props) => {
     return(
         <View >
             <View style={{height:10}}>
-        <HomeMap/>
+        <RouteMap/>
         </View>
             <View style={styles.flatList}>
             <FlatList
